@@ -1,0 +1,47 @@
+
+body {
+    background: #006563;
+}
+
+h1, h2 {
+    font-family: impact; 
+    color: #C3D5D5; 
+    font-size: 20px;
+    font-weight: 300;
+    margin: 1%;
+} 
+p, ul, ol {
+    font-family: impact; 
+    color: #C3D5D5; 
+    font-size: 16px;
+    font-weight: 300;
+    margin: 1%;
+}
+.content {
+    display: flex;
+    justify-self: space-between;
+    margin: 10px;
+    
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #344040;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 200px;
+}
+.content-right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background: #344040;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+.photo {
+    width: 500px;
+    border-radius: 20px;
+}
